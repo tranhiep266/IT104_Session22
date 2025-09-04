@@ -11,13 +11,13 @@ export default function Ex8() {
             <div className="mx-auto" style={{ maxWidth: 760 }}>
                 <Row className="mb-3">
                     <Col md={6}>
-                        <Form.Group controlId="email">
+                        <Form.Group>
                             <Form.Label>Email</Form.Label>
                             <Form.Control type="email"/>
                         </Form.Group>
                     </Col>
                     <Col md={6}>
-                        <Form.Group controlId="password">
+                        <Form.Group>
                             <Form.Label>Mật khẩu</Form.Label>
                             <Form.Control type="password"/>
                         </Form.Group>
